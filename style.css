@@ -143,3 +143,28 @@ h2 {
     color: grey;
     text-align: center;
 }
+
+/* Style for Quote Section */
+.quote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-box {
+    width: 80%;
+    margin: 60px auto 0 auto;
+}
+
+cite {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+cite::before {
+    content: "-";
+}
