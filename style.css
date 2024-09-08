@@ -20,20 +20,20 @@ a {
 }
 
 section {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 120px;
 }
 
 .container {
     max-width: 1080px;
-    padding: 0 15px;
+    padding: 0 30px;
     margin: 0 auto;
     height: 100%;
 }
 
 .button {
     display: inline-block;
-    padding: 5px 30px;
+    padding: 8px 32px;
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 5px;
@@ -100,6 +100,7 @@ li.logo {
 
 .hero h1 {
     font-size: 48px;
+    font-weight: 900;
     line-height: 1;
 }
 
@@ -118,7 +119,7 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .grid {
@@ -154,6 +155,7 @@ h2 {
     color: #1f2937;
     background-color: #e5e7eb;
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -181,22 +183,26 @@ cite::before {
     background-color: #f9faf8;
 }
 
-.cta > .container {
+.cta-box {
     color: #f9faf8;
     background-color: #3882f6;
     height: 180px;
     border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
 }
 
-.cta-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    height: 100%;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.cta-text > h3 {
+    font-size: 24px;
+}
+
+.cta-text > p {
+    color: #e5e7eb;
+    font-weight: 400;
 }
 
 .cta-button {
