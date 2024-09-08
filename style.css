@@ -203,3 +203,17 @@ cite::before {
     min-width: fit-content;
     border: 3px solid #e5e7eb;
 }
+
+
+/* Style for Footer Section */
+footer {
+    font-size: 16px;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
