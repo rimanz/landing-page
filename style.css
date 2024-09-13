@@ -39,8 +39,20 @@ section {
     border-radius: 5px;
     font-weight: bold;
     width: fit-content;
+    cursor: grab;
 }
 
+.button:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
+    box-shadow: 0px 0px 5px 0px #8c99ac;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
 
 /* Styles for Header->Navbar Section */
 header {
