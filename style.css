@@ -39,7 +39,6 @@ section {
     border-radius: 5px;
     font-weight: bold;
     width: fit-content;
-    cursor: grab;
 }
 
 .button:hover {
@@ -146,6 +145,10 @@ h2 {
     flex-direction: column;
     gap: 5px;
     width: 160px;
+}
+
+.card:hover > .thumb {
+    box-shadow: 0px 0px 3px 0px #1f2937;
 }
 
 .thumb {
