@@ -156,8 +156,19 @@ h2 {
     width: 160px;
     border: 4px solid #3882f6;
     border-radius: 15px;
-    background-color: #f9faf8;
+    /* background-color: #f9faf8; */
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thumb.odin-recipe {
+    background-image: url(images/odin-recipes.png);
+}
+
+
+.thumb.landing-page {
+    background-image: url(images/landing-page.png);
 }
 
 .caption {
