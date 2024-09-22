@@ -65,7 +65,7 @@ nav {
 
 ul.nav-links {
     display: flex;
-    gap: 15px;
+    gap: 5px;
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
@@ -73,6 +73,10 @@ ul.nav-links {
     width: 100%;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+ul.nav-links a {
+    padding: 0 10px;
 }
 
 li.logo {
