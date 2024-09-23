@@ -163,6 +163,8 @@ figure > img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    object-fit: cover;
+    object-position: 50% 0%;
 }
 
 figcaption {
