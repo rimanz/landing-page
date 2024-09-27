@@ -79,6 +79,14 @@ ul.nav-links a {
     padding: 0 10px;
 }
 
+ul.nav-links li:first-child a {
+    padding-left: 0;
+}
+
+ul.nav-links li:last-child a {
+    padding-right: 0;
+}
+
 li.logo {
     margin-right: auto;
     font-weight: bold;
